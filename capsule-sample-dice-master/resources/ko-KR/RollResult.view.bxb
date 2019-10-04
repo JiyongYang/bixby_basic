@@ -1,0 +1,25 @@
+result-view{
+  match : RollResultConcept(this)
+
+  message {
+    template ("주사위의 총 합은 #{value(this.sum)}입니다.")
+  }
+
+  render{
+    list-of (this.roll){
+      where-each (item){
+        paragraph{
+          value{
+            template ("주사위 결과: #{value(item)}")
+          }
+        }
+      }
+    }
+  }
+
+  conversation-drivers{
+    conversation-driver{
+      template ("5면 2번")
+    }
+  }
+}

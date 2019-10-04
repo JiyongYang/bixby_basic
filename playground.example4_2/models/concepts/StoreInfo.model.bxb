@@ -1,0 +1,15 @@
+structure (StoreInfo) {
+  description (__DESCRIPTION__)
+  property (name) {
+    type (Name)
+    min (Optional) max (One)
+  }
+  property (location) {
+    type (Location)
+    min (Optional) max (One)
+  }
+  property (tip) {
+    type (Tip)
+    min (Optional) max (One)
+  }
+}

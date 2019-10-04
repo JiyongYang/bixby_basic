@@ -1,0 +1,11 @@
+action (FindStore) {
+  type(Search)
+  description (__DESCRIPTION__)
+  collect {
+    input (location) {
+      type (Location)
+      min (Required) max (One)
+    }
+  }
+  output (StoreInfo)
+}

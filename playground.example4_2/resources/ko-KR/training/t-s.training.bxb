@@ -1,0 +1,5 @@
+train (t-s3wkpsdlkepqzrab6dn7175n6) {
+  utterance ("[g:StoreInfo] (서울시 강남구)[v:Location]에 있는 상점 찾아줘")
+  plan (Y2BmkC/ISaxML8ovzUvRS61IzC3ISTWJN9ILLskvSvXMS8vHpcAtMy8FrIhBDrsCn/zkxJLM/DwGJgZGIGYAkowMIMAEwQA=)
+  last-modified (1570180875333)
+}

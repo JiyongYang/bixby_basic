@@ -9,12 +9,12 @@
 - 음성 인식과 자연어 이해
 
 - ```
-  발화: 사람이 말하는 음성 언어
+  발화: 사람이 말하는 음성 언어.
   
-  ASR(Automatic Speech Recognition): 발화를 문자로 변환하는 기술
+  ASR(Automatic Speech Recognition): 발화를 문자로 변환하는 기술.
   -text: 오늘 서울 날씨 알려 줘
   
-  NLU(Natural Language Understanding): 문장의 의미를 이해하는 기술
+  NLU(Natural Language Understanding): 문장의 의미를 이해하는 기술.
   -text: 오늘 / 서울 / 날씨 / 알려 줘
   ```
 

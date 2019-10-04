@@ -1,0 +1,8 @@
+endpoints {
+  action-endpoints {
+    action-endpoint (FindStore) {
+      accepted-inputs (location)
+      local-endpoint (FindStore.js)
+    }
+  }
+}
